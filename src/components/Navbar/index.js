@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
 
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ isOpen,setIsOpen }) => {
     return (
         <>
             <Nav>
@@ -11,7 +11,7 @@ const Navbar = ({toggle}) => {
                     <NavLogo to="/">
                         <h1>M.C. </h1>
                     </NavLogo>
-                    <MobileIcon onClick={toggle}>
+                    <MobileIcon onClick={()=>setIsOpen(!isOpen)}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
