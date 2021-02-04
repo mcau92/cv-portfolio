@@ -1,25 +1,22 @@
 import React from "react";
-import email from "../../images/mail-logo.png";
-import linkedin from "../../images/linkedin-logo.png";
 import gitLink from "../../images/git-link-logo.png";
+import linkedin from "../../images/linkedin-logo.png";
+import email from "../../images/mail-logo.png";
 import unsplash from "../../images/unsplash-icon.png";
 import {
+  LinksAndContactsContainer,
   LinksContainer,
+  LinksCopyrigth,
+  LinksIcon,
   LinksLogoContainer,
   LinksRef,
-  LinksIcon,
   LinksWrapper,
-  LinksLogo,
-  LinksAndContactsContainer,
-  LinksCopyrigth,
 } from "./LinksElements";
 
 const LinksAndContacts = () => {
   return (
     <>
       <LinksAndContactsContainer>
-        <LinksLogo>M.C.</LinksLogo>
-
         <LinksContainer>
           <LinksRef to="home">home</LinksRef>
           <LinksRef to="about">about</LinksRef>

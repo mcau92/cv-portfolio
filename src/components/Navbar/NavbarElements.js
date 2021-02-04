@@ -36,10 +36,9 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 10px;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  font-family: "Dancing Script", cursive;
   text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: default;
@@ -63,7 +62,7 @@ export const MobileIcon = styled.div`
     color: #fff;
 
     &:hover {
-      color: red;
+      color: rgb(241, 113, 27);
     }
   }
 `;
@@ -90,10 +89,11 @@ export const NavLinks = styled(LinkS)`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+  font-size: 12px;
   cursor: pointer;
 
   &:hover {
-    color: red;
+    color: rgb(241, 113, 27);
   }
 
   &.active {

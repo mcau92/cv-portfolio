@@ -1,14 +1,16 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Angular from "../../images/angular-logo.png";
-import Java from "../../images/java-logo.png";
+import Git from "../../images/git-logo.png";
+import Java from "../../images/java.svg";
+import Oracle from "../../images/database.svg";
 import Python from "../../images/python-logo.png";
+import Spring from "../../images/spring-logo.png";
 import "./index.css";
 import {
-  SoftwareContainer,
-  SoftwareCarouselContainer,
   SoftwareCard,
-  SoftwareH2,
+  SoftwareCarouselContainer,
+  SoftwareContainer,
   SoftwareIcon,
   SoftwareP,
   SoftwareTitle,
@@ -16,60 +18,66 @@ import {
 
 const Software = () => {
   const data = [
-    { image: Java, h2: "Java", p: "Professional experience", color: "#f0f0f0" },
-    { image: Python, h2: "Python", p: "Personal experience", color: "#f0f0f0" },
+    { image: Java, p: "Professional experience", color: "white" },
+    {
+      image: Spring,
+      p: "Professional experience",
+      color: "white",
+    },
+    {
+      image: Oracle,
+      p: "Professional experience",
+      color: "white",
+    },
+    {
+      image: Git,
+      p: "Professional experience",
+      color: "white",
+    },
+    { image: Python, p: "Personal experience", color: "white" },
+
     {
       image: Angular,
-      h2: "Angular",
       p: "Personal experience",
-      color: "#f0f0f0",
+      color: "white",
     },
     {
       image: Angular,
-      h2: "Angular",
       p: "Personal experience",
-      color: "#f0f0f0",
+      color: "white",
     },
     {
       image: Angular,
-      h2: "Angular",
       p: "Personal experience",
-      color: "#f0f0f0",
-    },
-    {
-      image: Angular,
-      h2: "Angular",
-      p: "Personal experience",
-      color: "#f0f0f0",
-    },
-    {
-      image: Angular,
-      h2: "Angular",
-      p: "Personal experience",
-      color: "#f0f0f0",
+      color: "white",
     },
   ];
   const listSoftware = data.map((d) => (
     <SoftwareCard color={d.color}>
       <SoftwareIcon src={d.image} />
-      <SoftwareH2>{d.h2}</SoftwareH2>
-      <SoftwareP>{d.p}</SoftwareP>
     </SoftwareCard>
   ));
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+    { width: 400, itemsToShow: 2 },
+    { width: 600, itemsToShow: 3 },
+    { width: 768, itemsToShow: 4 },
+    { width: 1200, itemsToShow: 5 },
   ];
   return (
     <>
       <SoftwareContainer id="software">
         <SoftwareTitle>
-          Languages and Software that i used belong my career
+          Some of the languages and technologies used belong my career
         </SoftwareTitle>
         <SoftwareCarouselContainer>
-          <Carousel breakPoints={breakPoints}>{listSoftware}</Carousel>
+          <Carousel
+            autoPlaySpeed={3000}
+            autoPlay={true}
+            breakPoints={breakPoints}
+          >
+            {listSoftware}
+          </Carousel>
         </SoftwareCarouselContainer>
       </SoftwareContainer>
     </>

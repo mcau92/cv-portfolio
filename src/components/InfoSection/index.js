@@ -2,6 +2,8 @@ import React from "react";
 import {
   Column1,
   Column2,
+  Column3,
+  Column4,
   Higlighted,
   Img,
   ImgWrap,
@@ -58,14 +60,18 @@ const InfoSection = ({
                   </Higlighted>
                 </Subtitle>
               </TextWrapper>
-              <ImgWrap>
-                <Img src={img2} alt={alt} />
-              </ImgWrap>
             </Column1>
             <Column2>
               <ImgWrap>
                 <Img src={img} alt={alt} />
               </ImgWrap>
+            </Column2>
+            <Column3>
+              <ImgWrap>
+                <Img src={img2} alt={alt} />
+              </ImgWrap>
+            </Column3>
+            <Column4>
               <TextWrapper>
                 <Subtitle darkText={darkText}>
                   I’m a Java software engineer. Being a{" "}
@@ -92,7 +98,7 @@ const InfoSection = ({
                   </Higlighted>
                 </Subtitle>
               </TextWrapper>
-            </Column2>
+            </Column4>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>

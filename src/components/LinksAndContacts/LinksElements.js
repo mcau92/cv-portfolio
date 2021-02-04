@@ -37,7 +37,7 @@ export const LinksRef = styled(LinkS)`
   height: 100%;
   font-size: 13px;
   &:hover {
-    color: red;
+    color: rgb(241, 113, 27);
   }
 `;
 

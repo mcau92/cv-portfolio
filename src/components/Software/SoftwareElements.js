@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const SoftwareTitle = styled.h2`
   text-align: center;
-  padding: 10px 0;
-  font-family: "Roboto Mono", monospace;
+  padding-bottom: 40px;
   color: white;
   font-weight: bold;
 `;
@@ -22,44 +21,35 @@ export const SoftwareCard = styled.div`
   background: ${(props) => props.color};
   display: flex;
   flex-direction: column;
-  flex: 0 0 200px;
+  flex: 0 0 150px;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  max-height: 260px;
+  border-radius: 50px;
+  height: 140px;
   padding: 10px;
+  margin: 30px 0;
 
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     transition: all 0.4s ease-in-out;
     cursor: pointer;
   }
 `;
 
 export const SoftwareIcon = styled.img`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
-`;
-
-export const SoftwareH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
-  margin-bottom: 40px;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
+  height: auto;
+  width: 80%;
 `;
 
 export const SoftwareH2 = styled.h2`
   font-size: 1rem;
-  margin-bottom: 5px;
 `;
 
 export const SoftwareP = styled.p`
   font-size: 1rem;
+  font-weight: bold;
   text-align: center;
+  margin-top: 35px;
 `;
