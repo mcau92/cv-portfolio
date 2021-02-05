@@ -21,10 +21,6 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-
-  &:after {
-    background: rgba(0, 0, 0, 0.7);
-  }
 `;
 
 export const VideoBg = styled.video`

@@ -56,7 +56,7 @@ export const LinksWrapper = styled.a`
   width: 40px;
   margin: 5px;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 40px;
   overflow: hidden;
 `;
 

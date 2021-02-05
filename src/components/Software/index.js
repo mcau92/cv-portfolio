@@ -1,10 +1,19 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Angular from "../../images/angular-logo.png";
+import Aws from "../../images/aws-logo.png";
+import Sql from "../../images/database.svg";
+import Devops from "../../images/devops-logo.png";
+import Docker from "../../images/doker-logo.png";
+import Flutter from "../../images/flutter-logo.png";
 import Git from "../../images/git-logo.png";
+import Heroku from "../../images/heroku-logo.png";
 import Java from "../../images/java.svg";
-import Oracle from "../../images/database.svg";
-import Python from "../../images/python-logo.png";
+import Jenkins from "../../images/jenkins-logo.png";
+import NodeLogo from "../../images/node-logo.png";
+import Postman from "../../images/postman-logo.png";
+import Python from "../../images/python-logo.svg";
+import ReactLogo from "../../images/react-logo.png";
 import Spring from "../../images/spring-logo.png";
 import "./index.css";
 import {
@@ -12,44 +21,68 @@ import {
   SoftwareCarouselContainer,
   SoftwareContainer,
   SoftwareIcon,
-  SoftwareP,
+  SoftwareLevelDescription,
+  SoftwareLevelDescriptionTitle,
   SoftwareTitle,
 } from "./SoftwareElements";
 
 const Software = () => {
+  const professional = "#49be5c";
+  const nonprofessional = "#e2cf3b";
   const data = [
-    { image: Java, p: "Professional experience", color: "white" },
+    { image: Java, color: professional },
     {
       image: Spring,
-      p: "Professional experience",
-      color: "white",
-    },
-    {
-      image: Oracle,
-      p: "Professional experience",
-      color: "white",
+      color: professional,
     },
     {
       image: Git,
-      p: "Professional experience",
-      color: "white",
+      color: professional,
     },
-    { image: Python, p: "Personal experience", color: "white" },
+    {
+      image: Sql,
+      color: professional,
+    },
+    { image: Postman, color: professional },
 
     {
-      image: Angular,
-      p: "Personal experience",
-      color: "white",
+      image: Devops,
+      color: professional,
     },
     {
-      image: Angular,
-      p: "Personal experience",
-      color: "white",
+      image: Jenkins,
+      color: professional,
     },
     {
+      image: Docker,
+      color: professional,
+    },
+    { image: Python, color: nonprofessional },
+    {
       image: Angular,
-      p: "Personal experience",
-      color: "white",
+      color: nonprofessional,
+    },
+    {
+      image: Flutter,
+      color: nonprofessional,
+    },
+
+    {
+      image: ReactLogo,
+      color: nonprofessional,
+    },
+
+    {
+      image: NodeLogo,
+      color: nonprofessional,
+    },
+    {
+      image: Heroku,
+      color: nonprofessional,
+    },
+    {
+      image: Aws,
+      color: nonprofessional,
     },
   ];
   const listSoftware = data.map((d) => (
@@ -67,9 +100,7 @@ const Software = () => {
   return (
     <>
       <SoftwareContainer id="software">
-        <SoftwareTitle>
-          Some of the languages and technologies used belong my career
-        </SoftwareTitle>
+        <SoftwareTitle>Some Of My Skills</SoftwareTitle>
         <SoftwareCarouselContainer>
           <Carousel
             autoPlaySpeed={3000}
@@ -79,6 +110,14 @@ const Software = () => {
             {listSoftware}
           </Carousel>
         </SoftwareCarouselContainer>
+        <SoftwareLevelDescription>
+          <SoftwareLevelDescriptionTitle color={professional}>
+            Professional Experience
+          </SoftwareLevelDescriptionTitle>
+          <SoftwareLevelDescriptionTitle color={nonprofessional}>
+            Personal Experience
+          </SoftwareLevelDescriptionTitle>
+        </SoftwareLevelDescription>
       </SoftwareContainer>
     </>
   );
