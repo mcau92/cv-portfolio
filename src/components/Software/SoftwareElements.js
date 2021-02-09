@@ -13,6 +13,7 @@ export const SoftwareContainer = styled.div`
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #0c0c0c;
+  z-index: 1;
 `;
 export const SoftwareCarouselContainer = styled.div`
   font-family: sans-serif;

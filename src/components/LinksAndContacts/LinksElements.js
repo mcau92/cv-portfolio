@@ -7,26 +7,14 @@ export const LinksAndContactsContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-`;
-
-export const LinksLogo = styled.h1`
-  font-size: 40px;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: "Dancing Script", cursive;
-  text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  cursor: default;
-  color: rgb(241, 113, 27);
-  margin: 0;
-  padding-bottom: 15px;
+  z-index: 1;
 `;
 export const LinksContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 `;
 export const LinksRef = styled(LinkS)`
   cursor: pointer;
@@ -71,4 +59,16 @@ export const LinksCopyrigth = styled.p`
   font-size: 10px;
   text-align: center;
   color: gray;
+`;
+
+export const LinksH1 = styled.h1`
+  text-align: center;
+
+  color: rgb(241, 113, 27);
+  text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
+`;
+export const LinksH2 = styled.h2`
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
 `;

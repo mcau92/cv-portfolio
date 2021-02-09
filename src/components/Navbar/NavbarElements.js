@@ -4,6 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #181818;
+  /*opacity: ${({ scrollNav }) => (scrollNav ? "0.3" : "1")};*/
   height: 80px;
   /* margin-top: -80px; */
   display: flex;
@@ -23,7 +24,7 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index: 1;
+  z-index: -1;
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
@@ -97,6 +98,6 @@ export const NavLinks = styled(LinkS)`
   }
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    color: rgb(241, 113, 27);
   }
 `;
