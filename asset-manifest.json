@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/cv-portfolio/static/css/main.26cb0d4c.chunk.css",
+    "main.js": "/cv-portfolio/static/js/main.d8585fbf.chunk.js",
+    "main.js.map": "/cv-portfolio/static/js/main.d8585fbf.chunk.js.map",
+    "runtime-main.js": "/cv-portfolio/static/js/runtime-main.ba874d4d.js",
+    "runtime-main.js.map": "/cv-portfolio/static/js/runtime-main.ba874d4d.js.map",
+    "static/js/2.422b87ca.chunk.js": "/cv-portfolio/static/js/2.422b87ca.chunk.js",
+    "static/js/2.422b87ca.chunk.js.map": "/cv-portfolio/static/js/2.422b87ca.chunk.js.map",
+    "static/js/3.819c32e3.chunk.js": "/cv-portfolio/static/js/3.819c32e3.chunk.js",
+    "static/js/3.819c32e3.chunk.js.map": "/cv-portfolio/static/js/3.819c32e3.chunk.js.map",
+    "index.html": "/cv-portfolio/index.html",
+    "static/css/main.26cb0d4c.chunk.css.map": "/cv-portfolio/static/css/main.26cb0d4c.chunk.css.map",
+    "static/js/2.422b87ca.chunk.js.LICENSE.txt": "/cv-portfolio/static/js/2.422b87ca.chunk.js.LICENSE.txt",
+    "static/media/aws-logo.1d12dac5.png": "/cv-portfolio/static/media/aws-logo.1d12dac5.png",
+    "static/media/database.45667a8e.svg": "/cv-portfolio/static/media/database.45667a8e.svg",
+    "static/media/devops-logo.1f04149f.png": "/cv-portfolio/static/media/devops-logo.1f04149f.png",
+    "static/media/doker-logo.646e5451.png": "/cv-portfolio/static/media/doker-logo.646e5451.png",
+    "static/media/flutter-logo.99b29fec.png": "/cv-portfolio/static/media/flutter-logo.99b29fec.png",
+    "static/media/git-logo.c2f5c09e.png": "/cv-portfolio/static/media/git-logo.c2f5c09e.png",
+    "static/media/heroku-logo.7d1a0cd2.png": "/cv-portfolio/static/media/heroku-logo.7d1a0cd2.png",
+    "static/media/hobby.2514a108.svg": "/cv-portfolio/static/media/hobby.2514a108.svg",
+    "static/media/java.b4a0adbd.svg": "/cv-portfolio/static/media/java.b4a0adbd.svg",
+    "static/media/jenkins-logo.3ce6a892.png": "/cv-portfolio/static/media/jenkins-logo.3ce6a892.png",
+    "static/media/myphoto.208f2da6.png": "/cv-portfolio/static/media/myphoto.208f2da6.png",
+    "static/media/node-logo.7b7c4003.png": "/cv-portfolio/static/media/node-logo.7b7c4003.png",
+    "static/media/pc.997379eb.svg": "/cv-portfolio/static/media/pc.997379eb.svg",
+    "static/media/postman-logo.73784122.png": "/cv-portfolio/static/media/postman-logo.73784122.png",
+    "static/media/python-logo.97a72db0.svg": "/cv-portfolio/static/media/python-logo.97a72db0.svg",
+    "static/media/react-logo.73ac128a.png": "/cv-portfolio/static/media/react-logo.73ac128a.png",
+    "static/media/spring-logo.200da33f.png": "/cv-portfolio/static/media/spring-logo.200da33f.png",
+    "static/media/video2.b99b6883.mp4": "/cv-portfolio/static/media/video2.b99b6883.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba874d4d.js",
+    "static/js/2.422b87ca.chunk.js",
+    "static/css/main.26cb0d4c.chunk.css",
+    "static/js/main.d8585fbf.chunk.js"
+  ]
+}
