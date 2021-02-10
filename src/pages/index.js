@@ -7,9 +7,11 @@ import LinksAndContacts from "../components/LinksAndContacts";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  AOS.init({ duration: 1600, easing: "ease-in-out-back" });
   return (
     <>
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />

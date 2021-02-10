@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
   height: 100vh;
   max-height: fit-content;
   position: relative;
-  z-index: 1;
+  margin-top: -80px;
 `;
 
 export const HeroBg = styled.div`
@@ -27,6 +27,7 @@ export const VideoBg = styled.video`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-size: cover;
   opacity: 0.4;
   filter: blur(3px);
 `;

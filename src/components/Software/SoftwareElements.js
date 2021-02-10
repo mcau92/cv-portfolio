@@ -5,6 +5,8 @@ export const SoftwareTitle = styled.h2`
   text-align: center;
   color: rgb(241, 113, 27);
   font-weight: 900;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   margin: 20px 0;
 `;
 export const SoftwareContainer = styled.div`

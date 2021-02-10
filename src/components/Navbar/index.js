@@ -46,7 +46,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-70}
                 activeClass="active"
               >
                 About
@@ -59,7 +59,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-70}
                 activeClass="active"
               >
                 Experiences and Skills
@@ -73,7 +73,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-70}
                 activeClass="active"
               >
                 Links and Contacts
