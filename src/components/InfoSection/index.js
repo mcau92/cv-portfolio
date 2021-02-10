@@ -30,7 +30,7 @@ const InfoSection = ({
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
-        <InfoWrapper data-aos="zoom-in" data-aos-anchor-placement="top-center">
+        <InfoWrapper data-aos="zoom-in">
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
