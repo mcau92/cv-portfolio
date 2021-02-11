@@ -46,6 +46,12 @@ export const HeroContent = styled.div`
   @media screen and (max-width: 768px) {
     transform: translateY(0) !important;
   }
+  @media screen and (max-height: 668px) {
+    transform: translateY(0) !important;
+  }
+  @media screen and (max-height: 400px) {
+    transform: translateY(10%) !important;
+  }
 `;
 export const HeroImgContainer = styled.div`
   height: 120px;
@@ -54,6 +60,12 @@ export const HeroImgContainer = styled.div`
   border: solid 5px;
   border-color: rgb(241, 113, 27);
   overflow: hidden;
+
+  @media screen and (max-height: 520px) {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+  }
 `;
 export const HeroImg = styled.img`
   height: 100%;
@@ -67,6 +79,9 @@ export const HeroH1 = styled.h1`
     -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
 
+  @media screen and (max-height: 520px) {
+    font-size: 28px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
@@ -94,6 +109,9 @@ export const HeroP = styled.p`
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 
+  @media screen and (max-height: 520px) {
+    font-size: 14px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 20px;
   }

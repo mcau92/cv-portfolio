@@ -17,6 +17,7 @@ export const Nav = styled.nav`
 
   @media screen and(max-width:960px) {
     transition: 0.8s all ease;
+    background: #181818 !important;
   }
 `;
 
