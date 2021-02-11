@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 100vh;
+  height: 500px;
   max-height: fit-content;
   position: relative;
   margin-top: -80px;
