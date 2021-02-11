@@ -49,16 +49,16 @@ export const HeroContent = styled.div`
   }
 `;
 export const HeroImgContainer = styled.div`
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
   border: solid 5px;
   border-color: rgb(241, 113, 27);
-  background-color: white;
   overflow: hidden;
 `;
 export const HeroImg = styled.img`
   height: 100%;
+  min-height: 100%;
   width: 100%;
 `;
 export const HeroH1 = styled.h1`
