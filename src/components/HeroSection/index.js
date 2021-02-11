@@ -16,9 +16,6 @@ import {
 const HeroSection = () => {
   return (
     <HeroContainer id="home">
-      <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg>
       <HeroContent>
         <HeroImgContainer>
           <HeroImg src={me} />

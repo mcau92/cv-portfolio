@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 500px;
+  height: 1000px;
   max-height: fit-content;
   position: relative;
   margin-top: -80px;
@@ -38,8 +38,11 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  -ms-transform: translateY(-20%);
   transform: translateY(-20%);
+
+  @media screen and (max-width: 768px) {
+    transform: translateY(0) !important;
+  }
 `;
 export const HeroImgContainer = styled.div`
   height: 100px;
