@@ -94,19 +94,19 @@ export const HeroP = styled.p`
     -1px 1px 0 #000, 1px 1px 0 #000;
 
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   @media screen and (max-width: 600px) {
-    font-size: 16px;
+    font-size: 8px;
   }
   @media screen and (max-width: 493px) {
-    font-size: 14px;
+    font-size: 8px;
   }
   @media screen and (max-width: 444px) {
-    font-size: 12px;
+    font-size: 8px;
   }
   @media screen and (max-width: 372px) {
-    font-size: 10px;
+    font-size: 8px;
   }
 `;
