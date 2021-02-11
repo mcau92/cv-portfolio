@@ -14,8 +14,6 @@ const Home = () => {
   AOS.init({ duration: 1600, easing: "ease-in-out-back" });
   return (
     <>
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
-      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <Experiences />
