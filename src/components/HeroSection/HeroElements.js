@@ -31,9 +31,11 @@ export const VideoBg = styled.video`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-size: cover;
-  opacity: 0.4;
+  opacity: 0.7;
   filter: blur(3px);
+  @media screen and (max-width: 768px) {
+    object-fit: inherit;
+  }
 `;
 export const HeroContent = styled.div`
   max-width: 1200px;
