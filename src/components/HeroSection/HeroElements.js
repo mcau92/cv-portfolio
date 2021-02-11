@@ -49,7 +49,7 @@ export const HeroContent = styled.div`
   @media screen and (max-height: 668px) {
     transform: translateY(0) !important;
   }
-  @media screen and (max-height: 400px) {
+  @media screen and (max-height: 430px) {
     transform: translateY(10%) !important;
   }
 `;
