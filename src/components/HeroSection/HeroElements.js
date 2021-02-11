@@ -6,10 +6,13 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 3000px;
+  height: 100vh;
   max-height: fit-content;
   position: relative;
   margin-top: -80px;
+  min-height: -moz-available; /* WebKit-based browsers will ignore this. */
+  min-height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  min-height: fill-available;
 `;
 
 export const HeroBg = styled.div`
