@@ -9,9 +9,7 @@ export const HeroContainer = styled.div`
   height: 100vh;
   max-height: fit-content;
   position: relative;
-  margin-top: -80px;
   min-height: 100vh !important;
-  min-height: -moz-available !important; /* WebKit-based browsers will ignore this. */
   min-height: -webkit-fill-available !important; /* Mozilla-based browsers will ignore this. */
 `;
 
@@ -21,8 +19,6 @@ export const HeroBg = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 `;
 
