@@ -32,7 +32,7 @@ export const SoftwareCard = styled.div`
   border-color: ${(props) => props.color};
   border-radius: 50px;
   height: 130px;
-  padding: 10px;
+  padding: 8px;
   margin: 30px 0;
 
   transition: all 0.2s ease-in-out;

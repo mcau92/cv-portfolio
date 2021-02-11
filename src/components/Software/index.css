@@ -1,10 +1,6 @@
 .rec-slider-container {
     margin: 0 !important;
 }
-.rec-rec-swipable {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 .rec.rec-arrow {
     display: none;
