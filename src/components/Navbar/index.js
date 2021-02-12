@@ -12,7 +12,7 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
-  const [scrollNav, setScrollNav] = useState(false);
+  /* const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
     var scrolled = document.scrollingElement.scrollTop;
@@ -25,7 +25,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
-  }, []);
+  }, []); */
 
   const toogleHome = () => {
     scroll.scrollToTop();
@@ -33,7 +33,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav>
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
