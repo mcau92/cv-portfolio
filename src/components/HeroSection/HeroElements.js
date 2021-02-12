@@ -32,6 +32,17 @@ export const VideoBg = styled.video`
     width: 120%;
     transform: translateX(-5%);
   }
+  @media screen and (max-width: 430px) {
+    object-fit: inherit;
+    width: 140%;
+    transform: translateX(-10%);
+  }
+
+  @media screen and (max-width: 350px) {
+    object-fit: inherit;
+    width: 160%;
+    transform: translateX(-15%);
+  }
 `;
 export const HeroContent = styled.div`
   max-width: 1200px;
@@ -94,6 +105,9 @@ export const HeroH1 = styled.h1`
   @media screen and (max-width: 372px) {
     font-size: 26px;
   }
+  @media screen and (max-width: 276px) {
+    font-size: 24px;
+  }
   @media screen and (max-height: 520px) {
     font-size: 32px;
   }
@@ -119,6 +133,9 @@ export const HeroP = styled.p`
   @media screen and (max-width: 372px) {
     font-size: 16px;
   }
+  @media screen and (max-width: 276px) {
+    font-size: 14px;
+  }
   @media screen and (max-height: 520px) {
     font-size: 16px;
   }
@@ -139,6 +156,9 @@ export const HeroPTypeWriter = styled.p`
 
   @media screen and (max-width: 372px) {
     font-size: 10px;
+  }
+  @media screen and (max-width: 276px) {
+    font-size: 8px;
   }
   @media screen and (max-height: 520px) {
     font-size: 12px;
