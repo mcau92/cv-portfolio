@@ -5,6 +5,8 @@ import { Link as LinkS } from "react-scroll";
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#181818" : "transparent")};
   transition: background-color 1s ease 0s;
+  -webkit-transition: background-color 1s ease 0s;
+  -moz-transition: background-color 1s ease 0s;
   height: 80px;
   width: 100%;
   display: flex;
