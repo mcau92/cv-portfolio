@@ -10,6 +10,7 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
+  HeroPTypeWriter,
   VideoBg,
 } from "./HeroElements";
 
@@ -32,13 +33,14 @@ const HeroSection = () => {
             <HeroImg src={me} />
           </HeroImgContainer>
           <HeroH1>Hey! What's up?</HeroH1>
-          <HeroP>
+          <HeroP>My name is Michael Cauduro</HeroP>
+          <HeroPTypeWriter>
             <Typewriter
-              string="My name is Michael Cauduro and i'm a Software Engineer"
+              string="i'm a Software Engineer"
               delay={70}
               cursor="_"
             />{" "}
-          </HeroP>
+          </HeroPTypeWriter>
         </HeroContent>
       </HeroContainer>
     </>

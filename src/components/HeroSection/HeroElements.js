@@ -75,6 +75,7 @@ export const HeroImg = styled.img`
 export const HeroH1 = styled.h1`
   color: rgb(241, 113, 27);
   font-size: 44px;
+  letter-spacing: 1.8px;
   text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
@@ -114,18 +115,33 @@ export const HeroP = styled.p`
   }
 
   @media screen and (max-width: 600px) {
-    font-size: 15px;
+    font-size: 18px;
   }
-  @media screen and (max-width: 493px) {
-    font-size: 13px;
+
+  @media screen and (max-width: 372px) {
+    font-size: 16px;
   }
-  @media screen and (max-width: 444px) {
-    font-size: 12px;
+  @media screen and (max-height: 520px) {
+    font-size: 16px;
   }
+`;
+
+export const HeroPTypeWriter = styled.p`
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
   @media screen and (max-width: 372px) {
     font-size: 10px;
   }
   @media screen and (max-height: 520px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 `;
