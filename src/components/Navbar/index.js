@@ -15,7 +15,8 @@ const Navbar = ({ isOpen, setIsOpen }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    var scrolled = document.scrollingElement.scrollTop;
+    if (scrolled >= 80) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
