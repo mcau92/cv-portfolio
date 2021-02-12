@@ -39,8 +39,8 @@ const LinksAndContacts = () => {
         </LinksLogoContainer>
 
         <LinksCopyrigth>
-          Copyright © {new Date().getFullYear()} All rights reserved | This
-          template is created using React and made by Michael Cauduro
+          Copyright © {new Date().getFullYear()} All rights reserved | Michael
+          Cauduro
         </LinksCopyrigth>
       </LinksAndContactsContainer>
     </>
