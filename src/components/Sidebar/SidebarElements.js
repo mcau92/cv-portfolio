@@ -29,10 +29,16 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+  &:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const SidebarWrapper = styled.div`
   color: #fff;
+
+  justify-content: center;
 `;
 
 export const SidebarLink = styled(LinkS)`
@@ -56,6 +62,7 @@ export const SidebarLink = styled(LinkS)`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
+  padding-left: 0;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
 

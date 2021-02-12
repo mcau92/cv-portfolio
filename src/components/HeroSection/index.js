@@ -35,11 +35,7 @@ const HeroSection = () => {
           <HeroH1>Hey! What's up?</HeroH1>
           <HeroP>My name is Michael Cauduro</HeroP>
           <HeroPTypeWriter>
-            <Typewriter
-              string="i'm a Software Engineer"
-              delay={70}
-              cursor="_"
-            />{" "}
+            <Typewriter string="Software Engineer" delay={70} cursor="_" />{" "}
           </HeroPTypeWriter>
         </HeroContent>
       </HeroContainer>

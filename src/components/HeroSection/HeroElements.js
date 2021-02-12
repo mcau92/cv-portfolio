@@ -128,8 +128,9 @@ export const HeroP = styled.p`
 
 export const HeroPTypeWriter = styled.p`
   color: white;
+  margin-top: 0;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 18px;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;

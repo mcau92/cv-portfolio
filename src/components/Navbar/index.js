@@ -12,7 +12,7 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
-  /*const [scrollNav, setScrollNav] = useState(false);
+  const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -25,14 +25,14 @@ const Navbar = ({ isOpen, setIsOpen }) => {
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
-*/
+
   const toogleHome = () => {
     scroll.scrollToTop();
   };
 
   return (
     <>
-      <Nav>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
