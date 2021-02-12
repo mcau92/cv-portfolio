@@ -12,6 +12,9 @@ export const ContactFormContainer = styled.div`
 
 export const FormBox = styled.form`
   width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
 `;
 export const FormName = styled.div`
   float: left;
