@@ -10,7 +10,6 @@ export const HeroContainer = styled.div`
   max-height: fit-content;
   position: relative;
   min-height: -webkit-fill-available !important; /* Mozilla-based browsers will ignore this. */
-  z-index: 1;
 `;
 
 export const HeroBg = styled.div`
@@ -41,7 +40,6 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateY(-20%);
 
   @media screen and (max-width: 768px) {
     transform: translateY(0) !important;
@@ -49,7 +47,7 @@ export const HeroContent = styled.div`
   @media screen and (max-height: 668px) {
     transform: translateY(0) !important;
   }
-  @media screen and (max-height: 430px) {
+  @media screen and (max-height: 520px) {
     transform: translateY(10%) !important;
   }
 `;
