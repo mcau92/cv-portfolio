@@ -20,6 +20,7 @@ export const SoftwareCarouselContainer = styled.div`
   display: block;
   align-items: center;
   justify-content: center;
+  -webkit-overflow-scrolling: touch;
 `;
 export const SoftwareCard = styled.div`
   display: flex;
