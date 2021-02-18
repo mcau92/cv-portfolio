@@ -50,6 +50,7 @@ export const FormInput = styled.input`
   border-radius: 4px;
   resize: vertical;
   box-sizing: border-box;
+  border-color: transparent;
   font-weight: bold;
 
   font-family: Arial, Helvetica, sans-serif;
