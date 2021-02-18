@@ -6,7 +6,6 @@ export const Nav = styled.nav`
   /*  background: ${({ scrollNav }) =>
     scrollNav ? "#181818" : "transparent"}; */
   background: #181818;
-  transition: background-color 1s ease 0s;
   height: 80px;
   width: 100%;
   display: flex;
@@ -24,7 +23,6 @@ export const NavbarContainer = styled.div`
   height: 100%;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
