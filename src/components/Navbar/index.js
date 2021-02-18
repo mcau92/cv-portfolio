@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { FaBars } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
+
 import {
   Nav,
   NavbarContainer,
@@ -12,28 +13,15 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
-  /* const [scrollNav, setScrollNav] = useState(false);
-
-  const changeNav = () => {
-    var scrolled = document.scrollingElement.scrollTop;
-    if (scrolled >= 80) {
-      setScrollNav(true);
-    } else {
-      setScrollNav(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeNav);
-  }, []); */
-
   const toogleHome = () => {
     scroll.scrollToTop();
   };
-
+  const toogleContact = () => {
+    scroll.scrollToBottom();
+  };
   return (
     <>
-      <Nav>
+      <Nav id="navbar">
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -46,8 +34,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
-                offset={-70}
+                offset={-80}
                 activeClass="active"
               >
                 About
@@ -60,7 +47,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-70}
+                offset={-80}
                 activeClass="active"
               >
                 Experiences and Skills
@@ -69,12 +56,11 @@ const Navbar = ({ isOpen, setIsOpen }) => {
 
             <NavItem>
               <NavLinks
-                to="links_contacts"
+                onClick={toogleContact}
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-70}
                 activeClass="active"
               >
                 Links and Contacts

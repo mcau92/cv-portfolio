@@ -10,10 +10,9 @@ export const SoftwareTitle = styled.h2`
   margin: 20px 0;
 `;
 export const SoftwareContainer = styled.div`
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #f9f9f9;
-  z-index: 1;
 `;
 export const SoftwareCarouselContainer = styled.div`
   font-family: sans-serif;

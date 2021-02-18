@@ -12,6 +12,7 @@ export const ContactFormContainer = styled.div`
 
 export const FormBox = styled.form`
   width: 50%;
+  max-height: 100%;
   @media screen and (max-width: 768px) {
     width: 70%;
   }
@@ -66,7 +67,6 @@ export const FormButton = styled.input`
   cursor: pointer;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 6px;
 
   &:hover {
     background-color: rgba(241, 113, 27, 0.7);

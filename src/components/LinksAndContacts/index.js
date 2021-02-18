@@ -11,6 +11,7 @@ import {
   LinksH2,
   LinksIcon,
   LinksLogoContainer,
+  LinksUpdateInfo,
   LinksWrapper,
 } from "./LinksElements";
 
@@ -40,6 +41,7 @@ const LinksAndContacts = () => {
           Copyright © {new Date().getFullYear()} All rights reserved | Michael
           Cauduro
         </LinksCopyrigth>
+        <LinksUpdateInfo>Last site update: 02/2021</LinksUpdateInfo>
       </LinksAndContactsContainer>
     </>
   );

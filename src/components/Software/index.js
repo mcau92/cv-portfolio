@@ -100,7 +100,7 @@ const Software = () => {
   ];
   return (
     <>
-      <SoftwareContainer id="software">
+      <SoftwareContainer>
         <SoftwareTitle>Software Skills</SoftwareTitle>
         <SoftwareCarouselContainer>
           <Carousel

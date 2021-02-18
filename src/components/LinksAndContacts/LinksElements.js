@@ -2,19 +2,13 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const LinksAndContactsContainer = styled.div`
+  padding: 25px 0;
   width: 100%;
   background-color: #181818;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
 `;
-export const LinksContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 20px;
-`;
+
 export const LinksRef = styled(LinkS)`
   cursor: pointer;
   color: white;
@@ -32,6 +26,7 @@ export const LinksLogoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 15px;
   padding-bottom: 15px;
 `;
 
@@ -60,8 +55,15 @@ export const LinksCopyrigth = styled.p`
   color: gray;
 `;
 
+export const LinksUpdateInfo = styled.p`
+  font-size: 10px;
+  text-align: center;
+  color: gray;
+`;
+
 export const LinksH1 = styled.h1`
   text-align: center;
+  margin-top: 0;
 
   color: rgb(241, 113, 27);
   text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;

@@ -55,7 +55,7 @@ export const TopLine = styled.p`
   font-weight: bold;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
   @media screen and (max-width: 807px) {
     text-align: center;
