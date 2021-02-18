@@ -8,13 +8,13 @@ export const Nav = styled.nav`
   background: #181818;
   transition: background-color 1s ease 0s;
   height: 80px;
-  /* margin-top: -80px; */
+  margin-top: -80px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1;
 `;
