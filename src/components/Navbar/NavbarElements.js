@@ -8,13 +8,13 @@ export const Nav = styled.nav`
   background: #181818;
   transition: background-color 1s ease 0s;
   height: 80px;
-  margin-top: -80px;
+  /* margin-top: -80px; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
 `;
@@ -22,8 +22,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  z-index: -1;
+  height: 100%;
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
