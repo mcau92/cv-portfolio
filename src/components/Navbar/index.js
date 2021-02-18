@@ -53,19 +53,6 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 Experiences and Skills
               </NavLinks>
             </NavItem>
-
-            <NavItem>
-              <NavLinks
-                onClick={toogleContact}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                activeClass="active"
-              >
-                Links and Contacts
-              </NavLinks>
-            </NavItem>
           </NavMenu>
         </NavbarContainer>
       </Nav>

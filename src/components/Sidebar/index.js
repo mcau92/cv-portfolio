@@ -25,9 +25,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           >
             Experiences
           </SidebarLink>
-          <SidebarLink to="links_contacts" onClick={() => setIsOpen(!isOpen)}>
-            Links and Contacts
-          </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

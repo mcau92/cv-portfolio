@@ -146,7 +146,7 @@ export const HeroPTypeWriter = styled.p`
   margin-top: 0;
   text-align: center;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 20px;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
     -1px 1px 0 #000, 1px 1px 0 #000;
 
@@ -163,4 +163,33 @@ export const HeroPTypeWriter = styled.p`
   @media screen and (max-height: 520px) {
     font-size: 12px;
   }
+`;
+
+export const LinksLogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+`;
+
+export const LinksWrapper = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 40px;
+  overflow: hidden;
+  &:hover {
+    transform: scale(1.2);
+  }
+`;
+
+export const LinksIcon = styled.img`
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
 `;
