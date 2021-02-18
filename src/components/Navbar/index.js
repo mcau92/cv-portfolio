@@ -12,10 +12,11 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
-  const [scrollNav, setScrollNav] = useState(false);
+  /* const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    var scrolled = document.scrollingElement.scrollTop;
+    if (scrolled >= 80) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -24,7 +25,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
-  }, []);
+  }, []); */
 
   const toogleHome = () => {
     scroll.scrollToTop();
@@ -32,7 +33,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav>
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -54,7 +55,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="experiences"
+                to="experiences_skills"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -62,22 +63,10 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 offset={-80}
                 activeClass="active"
               >
-                Experiences
+                Experiences and Skills
               </NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks
-                to="software"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-                activeClass="active"
-              >
-                Software
-              </NavLinks>
-            </NavItem>
+
             <NavItem>
               <NavLinks
                 to="links_contacts"

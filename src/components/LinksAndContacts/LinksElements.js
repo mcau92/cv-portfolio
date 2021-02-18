@@ -6,8 +6,7 @@ export const LinksAndContactsContainer = styled.div`
   background-color: #181818;
   align-items: center;
   justify-content: center;
-  padding: 20px 0;
-  z-index: 1;
+  padding: 30px 0;
 `;
 export const LinksContainer = styled.div`
   display: flex;
@@ -66,9 +65,23 @@ export const LinksH1 = styled.h1`
 
   color: rgb(241, 113, 27);
   text-shadow: 4px 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
+
+  @media screen and (max-width: 700px) {
+    font-size: 26px;
+  }
+  @media screen and (max-width: 590px) {
+    font-size: 24px;
+  }
 `;
 export const LinksH2 = styled.h2`
   text-align: center;
   color: white;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 590px) {
+    font-size: 16px;
+  }
 `;

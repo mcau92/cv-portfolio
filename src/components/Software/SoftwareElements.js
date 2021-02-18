@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 export const SoftwareTitle = styled.h2`
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   color: rgb(241, 113, 27);
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  font-weight: bold;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   margin: 20px 0;
 `;
 export const SoftwareContainer = styled.div`
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #0c0c0c;
+  background-color: #f9f9f9;
   z-index: 1;
 `;
 export const SoftwareCarouselContainer = styled.div`
@@ -20,6 +20,7 @@ export const SoftwareCarouselContainer = styled.div`
   display: block;
   align-items: center;
   justify-content: center;
+  -webkit-overflow-scrolling: touch;
 `;
 export const SoftwareCard = styled.div`
   display: flex;
@@ -32,14 +33,16 @@ export const SoftwareCard = styled.div`
   border-color: ${(props) => props.color};
   border-radius: 50px;
   height: 130px;
-  padding: 10px;
+  padding: 8px;
   margin: 30px 0;
 
   transition: all 0.2s ease-in-out;
   &:hover {
     transform: scale(1.03);
     transition: all 0.4s ease-in-out;
-    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
   }
 `;
 

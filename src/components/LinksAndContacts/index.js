@@ -19,9 +19,7 @@ const LinksAndContacts = () => {
     <>
       <LinksAndContactsContainer id="links_contacts">
         <LinksH1>Thank's to being here!</LinksH1>
-        <LinksH2>
-          Please contact me or follow me to my socials! see you there
-        </LinksH2>
+        <LinksH2>Please contact or follow me to my socials</LinksH2>
         <ContactForm />
         <LinksLogoContainer>
           <LinksWrapper href="mailto:michael.cauduro.dev@gmail.com">
@@ -39,8 +37,8 @@ const LinksAndContacts = () => {
         </LinksLogoContainer>
 
         <LinksCopyrigth>
-          Copyright © {new Date().getFullYear()} All rights reserved | This
-          template is created using React and made by Michael Cauduro
+          Copyright © {new Date().getFullYear()} All rights reserved | Michael
+          Cauduro
         </LinksCopyrigth>
       </LinksAndContactsContainer>
     </>
