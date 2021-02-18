@@ -54,7 +54,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="experiences_skills"
+                to="experiences"
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -62,10 +62,22 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 offset={-80}
                 activeClass="active"
               >
-                Experiences and Skills
+                Experiences
               </NavLinks>
             </NavItem>
-
+            <NavItem>
+              <NavLinks
+                to="software"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+                activeClass="active"
+              >
+                Software
+              </NavLinks>
+            </NavItem>
             <NavItem>
               <NavLinks
                 to="links_contacts"

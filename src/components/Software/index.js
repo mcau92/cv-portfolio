@@ -28,7 +28,7 @@ import {
 
 const Software = () => {
   const professional = "#49be5c";
-  const nonprofessional = "rgb(241, 113, 27)";
+  const nonprofessional = "#e2cf3b";
   const data = [
     { image: Java, color: professional },
     {
@@ -93,15 +93,14 @@ const Software = () => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 400, itemsToShow: 2 },
-    { width: 550, itemsToShow: 3 },
-    { width: 750, itemsToShow: 4 },
-    { width: 900, itemsToShow: 5 },
-    { width: 1200, itemsToShow: 6 },
+    { width: 600, itemsToShow: 3 },
+    { width: 768, itemsToShow: 4 },
+    { width: 1200, itemsToShow: 5 },
   ];
   return (
     <>
       <SoftwareContainer id="software">
-        <SoftwareTitle>Software Skills</SoftwareTitle>
+        <SoftwareTitle>Some Of My Skills</SoftwareTitle>
         <SoftwareCarouselContainer>
           <Carousel
             autoPlaySpeed={3000}

@@ -1,16 +1,18 @@
 import styled from "styled-components";
 
 export const SoftwareTitle = styled.h2`
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   color: rgb(241, 113, 27);
-  font-weight: 900;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  font-weight: bold;
   margin: 20px 0;
 `;
 export const SoftwareContainer = styled.div`
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f9f9f9;
+  background-color: #0c0c0c;
   z-index: 1;
 `;
 export const SoftwareCarouselContainer = styled.div`
@@ -37,9 +39,7 @@ export const SoftwareCard = styled.div`
   &:hover {
     transform: scale(1.03);
     transition: all 0.4s ease-in-out;
-  }
-  &:focus {
-    outline: none;
+    cursor: pointer;
   }
 `;
 
