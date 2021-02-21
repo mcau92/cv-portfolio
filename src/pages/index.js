@@ -18,6 +18,7 @@ const Home = () => {
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      <Experiences />
       <LinksAndContacts />
     </>
   );

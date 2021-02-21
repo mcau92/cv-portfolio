@@ -1,20 +1,20 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import Angular from "../../images/angular-logo.png";
-import Aws from "../../images/aws-logo.png";
-import Sql from "../../images/database.svg";
-import Devops from "../../images/devops-logo.png";
-import Docker from "../../images/doker-logo.png";
-import Flutter from "../../images/flutter-logo.png";
-import Git from "../../images/git-logo.png";
-import Heroku from "../../images/heroku-logo.png";
-import Java from "../../images/java.svg";
-import Jenkins from "../../images/jenkins-logo.png";
-import NodeLogo from "../../images/node-logo.png";
-import Postman from "../../images/postman-logo.png";
-import Python from "../../images/python-logo.svg";
-import ReactLogo from "../../images/react-logo.png";
-import Spring from "../../images/spring-logo.png";
+import Angular from "../../../images/angular-logo.png";
+import Aws from "../../../images/aws-logo.png";
+import Sql from "../../../images/database.svg";
+import Devops from "../../../images/devops-logo.png";
+import Docker from "../../../images/doker-logo.png";
+import Flutter from "../../../images/flutter-logo.png";
+import Git from "../../../images/git-logo.png";
+import Heroku from "../../../images/heroku-logo.png";
+import Java from "../../../images/java.svg";
+import Jenkins from "../../../images/jenkins-logo.png";
+import NodeLogo from "../../../images/node-logo.png";
+import Postman from "../../../images/postman-logo.png";
+import Python from "../../../images/python-logo.svg";
+import ReactLogo from "../../../images/react-logo.png";
+import Spring from "../../../images/spring-logo.png";
 import "./index.css";
 import {
   SoftwareCard,

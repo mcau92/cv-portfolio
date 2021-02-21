@@ -63,23 +63,26 @@ export const HeroContent = styled.div`
   }
 `;
 export const HeroImgContainer = styled.div`
-  height: 120px;
-  width: 120px;
-  border-radius: 120px;
+  overflow: hidden;
+`;
+export const HeroImg = styled.img`
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
   border: solid 5px;
   border-color: rgb(241, 113, 27);
-  overflow: hidden;
+
+  @media screen and (max-width: 580px) {
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+  }
 
   @media screen and (max-height: 520px) {
     height: 100px;
     width: 100px;
     border-radius: 100px;
   }
-`;
-export const HeroImg = styled.img`
-  height: 100%;
-  min-height: 100%;
-  min-width: 100%;
 `;
 export const HeroH1 = styled.h1`
   color: rgb(241, 113, 27);
