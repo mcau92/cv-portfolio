@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SoftwareTitle = styled.h2`
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   color: rgb(241, 113, 27);
   font-weight: 900;
@@ -24,30 +24,27 @@ export const SoftwareCarouselContainer = styled.div`
 export const SoftwareCard = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 0 0 130px;
+  flex: 0 0 120px;
   justify-content: center;
   background-color: white;
   align-items: center;
   border: 7px solid;
   border-color: ${(props) => props.color};
   border-radius: 50px;
-  height: 130px;
+  height: 5rem;
   padding: 8px;
   margin: 30px 0;
 
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    transform: scale(1.03);
-    transition: all 0.4s ease-in-out;
-  }
   &:focus {
     outline: none;
   }
 `;
 
 export const SoftwareIcon = styled.img`
-  height: auto;
-  width: 80%;
+  max-height: 100%;
+  max-width: 70%;
+  pointer-events: none;
+  cursor: default;
 `;
 
 export const SoftwareH2 = styled.h2`

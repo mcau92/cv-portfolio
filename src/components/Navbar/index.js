@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -9,15 +9,13 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks,
+  NavLinksAbout,
+  NavLinksExperiece,
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
   const toogleHome = () => {
     scroll.scrollToTop();
-  };
-  const toogleContact = () => {
-    scroll.scrollToBottom();
   };
   return (
     <>
@@ -29,29 +27,28 @@ const Navbar = ({ isOpen, setIsOpen }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks
+              <NavLinksAbout
                 to="about"
                 smooth={true}
-                duration={500}
+                duration={900}
+                exact="true"
                 spy={true}
-                offset={-80}
-                activeClass="active"
+                offset={-70}
               >
                 About
-              </NavLinks>
+              </NavLinksAbout>
             </NavItem>
             <NavItem>
-              <NavLinks
+              <NavLinksExperiece
                 to="experiences_skills"
                 smooth={true}
-                duration={500}
+                duration={900}
                 spy={true}
                 exact="true"
-                offset={-80}
-                activeClass="active"
+                offset={-70}
               >
                 Experiences and Skills
-              </NavLinks>
+              </NavLinksExperiece>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

@@ -78,7 +78,25 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinksAbout = styled(LinkS)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  font-size: 12px;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(241, 113, 27);
+  }
+
+  &.active {
+    color: rgb(241, 113, 27) !important;
+  }
+`;
+export const NavLinksExperiece = styled(LinkS)`
   color: #fff;
   display: flex;
   align-items: center;
