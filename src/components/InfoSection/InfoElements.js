@@ -66,7 +66,6 @@ export const Subtitle = styled.p`
   max-width: 100%;
   font-size: 16px;
   line-height: 1.6;
-  text-align: justify;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 

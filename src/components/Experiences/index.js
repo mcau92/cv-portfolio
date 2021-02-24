@@ -24,17 +24,23 @@ import {
   EducationTitle,
   EducationDescription,
   Col2BorderBottom,
+  DownloadResume,
+  DownloadLink,
 } from "./ExperiencesElements";
 import euris from "../../images/euris.png";
 import uninettuno from "../../images/uninettuno-logo.jpg";
 import hschool from "../../images/hs-logo.png";
+import pdf from "../../resume/resume.pdf";
+import google from "../../images/google-logo.png";
+import coursera from "../../images/coursera-logo.png";
+import admo from "../../images/admo.png";
 const Experiences = () => {
   const eurisDate = getEurisDate();
 
   return (
     <>
       <ExperienceContainer id="experiences_skills">
-        <ExperienceSection>
+        <ExperienceSection data-aos="flip-left">
           <ExperienceSectionDivWrapper>
             <WorkContainer>
               <WorkTitleH3>Work Experiences</WorkTitleH3>
@@ -57,16 +63,8 @@ const Experiences = () => {
                     <WorkDescriptionDuration>
                       november 2018-present
                     </WorkDescriptionDuration>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
+                    Design and Develop web application using Java and Spring
+                    Framework with microservices architecture.
                   </WorkDescription>
                 </Col4>
               </WorkWrapper>
@@ -97,7 +95,43 @@ const Experiences = () => {
                   </EducationDescription>
                 </Col2>
               </EducationWrapper>
+              <EducationTitleH3>IT Certification</EducationTitleH3>
+              <EducationWrapper>
+                <Col1>
+                  <Image src={google} />
+                </Col1>
+                <Col2BorderBottom>
+                  <EducationTitle>Google</EducationTitle>
+                  <EducationDescription>
+                    Crash course on Python
+                  </EducationDescription>
+                </Col2BorderBottom>
+              </EducationWrapper>
+              <EducationWrapper>
+                <Col1>
+                  <Image src={coursera} />
+                </Col1>
+                <Col2>
+                  <EducationTitle>Coursera-Standfor University</EducationTitle>
+                  <EducationDescription>Machine Learning</EducationDescription>
+                </Col2>
+              </EducationWrapper>
+              <EducationTitleH3>Volunteering</EducationTitleH3>
+              <EducationWrapper>
+                <Col1>
+                  <Image src={admo} />
+                </Col1>
+                <Col2BorderBottom>
+                  <EducationTitle>ADMO - Regione Veneto</EducationTitle>
+                  <EducationDescription>Marrow Donor</EducationDescription>
+                </Col2BorderBottom>
+              </EducationWrapper>
             </EducationContainer>
+            {/* <DownloadResume>
+              <DownloadLink href={pdf} download>
+                Download Resume
+              </DownloadLink>
+            </DownloadResume> */}
           </ExperienceSectionDivWrapper>
         </ExperienceSection>
         <Software />

@@ -50,7 +50,7 @@ export const Col1 = styled.div`
   grid-area: col1;
 `;
 export const Image = styled.img`
-  max-height: 55%;
+  max-height: 65%;
   max-width: 5rem;
   @media screen and (max-width: 520px) {
     max-width: 3.5rem;
@@ -136,4 +136,23 @@ export const Col2BorderBottom = styled.div`
   padding-left: 5px;
   grid-area: col2;
   border-bottom: thin solid lightgray;
+`;
+export const DownloadResume = styled.button`
+  float: right;
+  background-color: green;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(241, 113, 27);
+  }
+`;
+
+export const DownloadLink = styled.a`
+  text-decoration: none;
+  color: white;
 `;

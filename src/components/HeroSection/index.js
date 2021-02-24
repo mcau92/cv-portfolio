@@ -19,6 +19,7 @@ import {
   LinksLogoContainer,
   LinksWrapper,
   VideoBg,
+  ToAbout,
 } from "./HeroElements";
 
 const HeroSection = () => {
