@@ -41,6 +41,8 @@ export const SoftwareCard = styled.div`
 `;
 
 export const SoftwareIcon = styled.img`
+  min-height: 40%;
+  min-width: 60%;
   max-height: 100%;
   max-width: 70%;
   pointer-events: none;
