@@ -51,7 +51,8 @@ export const Col1 = styled.div`
 `;
 export const Image = styled.img`
   max-height: 65%;
-  max-width: 5rem;
+  width: 3rem;
+  max-width: 4rem;
   @media screen and (max-width: 520px) {
     max-width: 3.5rem;
   }

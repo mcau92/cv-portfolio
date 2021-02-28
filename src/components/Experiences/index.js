@@ -28,7 +28,7 @@ import {
   DownloadLink,
 } from "./ExperiencesElements";
 import euris from "../../images/euris.png";
-import uninettuno from "../../images/uninettuno-logo.jpg";
+import uninettuno from "../../images/uninettuno-logo.png";
 import hschool from "../../images/hs-logo.png";
 import pdf from "../../resume/resume.pdf";
 import google from "../../images/google-logo.png";
@@ -63,8 +63,9 @@ const Experiences = () => {
                     <WorkDescriptionDuration>
                       november 2018-present
                     </WorkDescriptionDuration>
-                    Design and Develop web application using Java and Spring
-                    Framework with microservices architecture.
+                    • Design and Develop web application using Java and Spring
+                    Framework with microservices architecture. <br />• Software
+                    test, build and deploy automation using CI and CD practices.
                   </WorkDescription>
                 </Col4>
               </WorkWrapper>
@@ -121,10 +122,10 @@ const Experiences = () => {
                 <Col1>
                   <Image src={admo} />
                 </Col1>
-                <Col2BorderBottom>
+                <Col2>
                   <EducationTitle>ADMO - Regione Veneto</EducationTitle>
                   <EducationDescription>Marrow Donor</EducationDescription>
-                </Col2BorderBottom>
+                </Col2>
               </EducationWrapper>
             </EducationContainer>
             {/* <DownloadResume>
