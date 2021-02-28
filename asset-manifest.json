@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cv-portfolio/static/css/main.061e584e.chunk.css",
-    "main.js": "/cv-portfolio/static/js/main.394ed3e3.chunk.js",
-    "main.js.map": "/cv-portfolio/static/js/main.394ed3e3.chunk.js.map",
+    "main.js": "/cv-portfolio/static/js/main.5589269d.chunk.js",
+    "main.js.map": "/cv-portfolio/static/js/main.5589269d.chunk.js.map",
     "runtime-main.js": "/cv-portfolio/static/js/runtime-main.dca23821.js",
     "runtime-main.js.map": "/cv-portfolio/static/js/runtime-main.dca23821.js.map",
     "static/css/2.ec02d681.chunk.css": "/cv-portfolio/static/css/2.ec02d681.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/euris.63802042.png": "/cv-portfolio/static/media/euris.63802042.png",
     "static/media/flutter-logo.99b29fec.png": "/cv-portfolio/static/media/flutter-logo.99b29fec.png",
     "static/media/git-logo.c2f5c09e.png": "/cv-portfolio/static/media/git-logo.c2f5c09e.png",
+    "static/media/google-logo.63312655.png": "/cv-portfolio/static/media/google-logo.63312655.png",
     "static/media/heroku-logo.7d1a0cd2.png": "/cv-portfolio/static/media/heroku-logo.7d1a0cd2.png",
     "static/media/hobby.2514a108.svg": "/cv-portfolio/static/media/hobby.2514a108.svg",
     "static/media/hs-logo.c7ea54d6.png": "/cv-portfolio/static/media/hs-logo.c7ea54d6.png",
@@ -36,6 +37,7 @@
     "static/media/react-logo.73ac128a.png": "/cv-portfolio/static/media/react-logo.73ac128a.png",
     "static/media/resume.7e3e505b.pdf": "/cv-portfolio/static/media/resume.7e3e505b.pdf",
     "static/media/spring-logo.200da33f.png": "/cv-portfolio/static/media/spring-logo.200da33f.png",
+    "static/media/uninettuno-logo.67f0bb3f.png": "/cv-portfolio/static/media/uninettuno-logo.67f0bb3f.png",
     "static/media/video2.b99b6883.mp4": "/cv-portfolio/static/media/video2.b99b6883.mp4"
   },
   "entrypoints": [
@@ -43,6 +45,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.2a4e570c.chunk.js",
     "static/css/main.061e584e.chunk.css",
-    "static/js/main.394ed3e3.chunk.js"
+    "static/js/main.5589269d.chunk.js"
   ]
 }
