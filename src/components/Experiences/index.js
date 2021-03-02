@@ -128,11 +128,11 @@ const Experiences = () => {
                 </Col2>
               </EducationWrapper>
             </EducationContainer>
-            {/* <DownloadResume>
+            <DownloadResume>
               <DownloadLink href={pdf} download>
                 Download Resume
               </DownloadLink>
-            </DownloadResume> */}
+            </DownloadResume>
           </ExperienceSectionDivWrapper>
         </ExperienceSection>
         <Software />
