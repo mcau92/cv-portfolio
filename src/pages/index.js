@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   AOS.init({ duration: 1000, easing: "ease-in-out" });
+
   return (
     <>
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
