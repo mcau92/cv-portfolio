@@ -99,7 +99,7 @@ const InfoSection = ({
                     href="https://unsplash.com/@mcau92"
                     style={{
                       color: "rgb(241, 113, 27)",
-                      "text-decoration": "none",
+                      textDecoration: "none",
                     }}
                   >
                     Unsplash

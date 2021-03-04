@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaBars } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-
 import {
+  MobileIcon,
   Nav,
   NavbarContainer,
-  NavLogo,
-  MobileIcon,
-  NavMenu,
   NavItem,
   NavLinksAbout,
   NavLinksExperiece,
+  NavLogo,
+  NavMenu,
 } from "./NavbarElements";
 
 const Navbar = ({ isOpen, setIsOpen }) => {
@@ -21,7 +20,9 @@ const Navbar = ({ isOpen, setIsOpen }) => {
     <>
       <Nav id="navbar">
         <NavbarContainer>
-          <NavLogo onClick={toogleHome}>M.C.</NavLogo>
+          <NavLogo onClick={toogleHome} to="navbar">
+            M.C.
+          </NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
             <FaBars />
           </MobileIcon>
@@ -31,9 +32,10 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 to="about"
                 smooth={true}
                 duration={900}
-                exact="true"
+                exact={"true"}
                 spy={true}
                 offset={-70}
+                autoCorrect="true"
               >
                 About
               </NavLinksAbout>
@@ -44,7 +46,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 smooth={true}
                 duration={900}
                 spy={true}
-                exact="true"
+                exact={"true"}
                 offset={-70}
               >
                 Experiences and Skills

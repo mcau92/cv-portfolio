@@ -26,6 +26,7 @@ import {
   Col2BorderBottom,
   DownloadResume,
   DownloadLink,
+  EducationDuration,
 } from "./ExperiencesElements";
 import euris from "../../images/euris.png";
 import uninettuno from "../../images/uninettuno-logo.png";
@@ -34,9 +35,13 @@ import pdf from "../../resume/resume.pdf";
 import google from "../../images/google-logo.png";
 import coursera from "../../images/coursera-logo.png";
 import admo from "../../images/admo.png";
+import enac from "../../images/enac.jpg";
 const Experiences = () => {
   const eurisDate = getEurisDate();
-
+  const googlepython =
+    "https://coursera.org/share/9d182009d1fcc0d513c3c889c3db3a1c";
+  const stanford =
+    "https://coursera.org/share/645735adbeab968bce92e87d881d0702";
   return (
     <>
       <ExperienceContainer id="experiences_skills">
@@ -81,8 +86,9 @@ const Experiences = () => {
                     Università Telematica Internazionale Uninettuno
                   </EducationTitle>
                   <EducationDescription>
-                    Bachelor's degree - Computer engineering
+                    Undergraduate Bachelor’s degree - Computer engineering
                   </EducationDescription>
+                  <EducationDuration>2020-present</EducationDuration>
                 </Col2BorderBottom>
               </EducationWrapper>
               <EducationWrapper>
@@ -104,7 +110,15 @@ const Experiences = () => {
                 <Col2BorderBottom>
                   <EducationTitle>Google</EducationTitle>
                   <EducationDescription>
-                    Crash course on Python
+                    <a
+                      href={googlepython}
+                      style={{
+                        textDecoration: "none",
+                        color: "rgb(241, 113, 27)",
+                      }}
+                    >
+                      Crash course on Python
+                    </a>
                   </EducationDescription>
                 </Col2BorderBottom>
               </EducationWrapper>
@@ -114,8 +128,32 @@ const Experiences = () => {
                 </Col1>
                 <Col2>
                   <EducationTitle>Coursera-Standfor University</EducationTitle>
-                  <EducationDescription>Machine Learning</EducationDescription>
+                  <EducationDescription>
+                    <a
+                      href={stanford}
+                      style={{
+                        textDecoration: "none",
+                        color: "rgb(241, 113, 27)",
+                      }}
+                    >
+                      Machine Learning
+                    </a>
+                  </EducationDescription>
                 </Col2>
+              </EducationWrapper>
+              <EducationTitleH3>Other Certification</EducationTitleH3>
+              <EducationWrapper>
+                <Col1>
+                  <Image src={enac} />
+                </Col1>
+                <Col2BorderBottom>
+                  <EducationTitle>
+                    ENAC- Italian Civil Aviation Authority
+                  </EducationTitle>
+                  <EducationDescription>
+                    APR Pilot Attestation
+                  </EducationDescription>
+                </Col2BorderBottom>
               </EducationWrapper>
               <EducationTitleH3>Volunteering</EducationTitleH3>
               <EducationWrapper>

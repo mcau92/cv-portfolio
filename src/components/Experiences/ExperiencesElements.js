@@ -41,6 +41,9 @@ export const WorkWrapper = styled.div`
   grid-template-columns: 20% auto;
   grid-template-areas: "col1 col2" "col3 col4";
   padding-bottom: 25px;
+  @media screen and (max-width: 520px) {
+    grid-template-columns: 23% auto;
+  }
 `;
 export const Col1 = styled.div`
   display: flex;
@@ -50,11 +53,12 @@ export const Col1 = styled.div`
   grid-area: col1;
 `;
 export const Image = styled.img`
+  min-height: 55%;
   max-height: 65%;
-  width: 3rem;
   max-width: 4rem;
   @media screen and (max-width: 520px) {
-    max-width: 3.5rem;
+    max-width: 3rem;
+    max-height: 45%;
   }
 `;
 export const Col2 = styled.div`
@@ -64,7 +68,7 @@ export const Col2 = styled.div`
 export const WorkTitle = styled.h4`
   margin: 0;
   text-align: left;
-  padding: 5px 0;
+  padding-bottom: 5px;
   font-weight: 900;
 `;
 export const WorkDuration = styled.h5`
@@ -72,6 +76,7 @@ export const WorkDuration = styled.h5`
   margin: 0;
   text-align: left;
 `;
+
 export const Col3 = styled.div`
   padding: 5px 50%;
   grid-area: col3;
@@ -114,7 +119,12 @@ export const EducationTitleH3 = styled.h3`
   padding-bottom: 10px;
   color: rgb(241, 113, 27);
 `;
-
+export const EducationDuration = styled.h6`
+  font-weight: normal;
+  margin: 0;
+  padding-top: 5px;
+  text-align: left;
+`;
 export const EducationWrapper = styled.div`
   display: grid;
   grid-template-columns: 20% auto;

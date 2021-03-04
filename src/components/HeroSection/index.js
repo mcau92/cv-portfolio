@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Typewriter } from "react-typewriting-effect";
@@ -22,7 +22,7 @@ import {
   ToAbout,
 } from "./HeroElements";
 
-const HeroSection = () => {
+const HeroSection = ({ isLoading, setIsLoading }) => {
   return (
     <>
       <HeroContainer id="home">
@@ -34,6 +34,11 @@ const HeroSection = () => {
             muted
             src={Video}
             type="video/mp4"
+            onLoadStart={() =>
+              setTimeout(() => {
+                setIsLoading(false);
+              }, 3000)
+            }
           />
         </HeroBg>
         <HeroContent>
@@ -43,7 +48,9 @@ const HeroSection = () => {
           <HeroH1>Hey! What's up?</HeroH1>
           <HeroP>My name is Michael Cauduro</HeroP>
           <HeroPTypeWriter>
-            <Typewriter string="Software Engineer" delay={70} cursor="_" />{" "}
+            {isLoading ? null : (
+              <Typewriter string="Software Engineer" delay={90} cursor="_" />
+            )}
           </HeroPTypeWriter>
           <LinksLogoContainer>
             <LinksWrapper href="mailto:michael.cauduro.dev@gmail.com">

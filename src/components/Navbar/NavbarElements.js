@@ -8,13 +8,16 @@ export const Nav = styled.nav`
   background: #181818;
   height: 80px;
   width: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: fixed;
   top: 0;
-  z-index: 1;
+  bottom: 0;
+  margin: 0;
+  z-index: 40;
 `;
 
 export const NavbarContainer = styled.div`
@@ -92,9 +95,9 @@ export const NavLinksAbout = styled(LinkS)`
     color: rgb(241, 113, 27);
   }
 
-  &.active {
+  /* &.active {
     color: rgb(241, 113, 27) !important;
-  }
+  } */
 `;
 export const NavLinksExperiece = styled(LinkS)`
   color: #fff;
@@ -110,7 +113,7 @@ export const NavLinksExperiece = styled(LinkS)`
     color: rgb(241, 113, 27);
   }
 
-  &.active {
+  /*&.active {
     color: rgb(241, 113, 27);
-  }
+  }*/
 `;
