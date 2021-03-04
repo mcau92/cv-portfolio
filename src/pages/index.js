@@ -1,5 +1,3 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
 import React, { useState } from "react";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Experiences from "../components/Experiences";
@@ -12,7 +10,6 @@ import Sidebar from "../components/Sidebar";
 import { HomeContainer } from "./HomeElement";
 
 const Home = ({ isLoading, setIsLoading }) => {
-  AOS.init({ duration: 1000, easing: "ease-in" });
   const [isOpen, setIsOpen] = useState(false);
 
   return (

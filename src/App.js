@@ -1,11 +1,14 @@
+import { css } from "@emotion/core";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import DotLoader from "react-spinners/DotLoader";
 import "./App.css";
 import { LoaderContainer } from "./AppElement";
 import Home from "./pages/index.js";
-import { css } from "@emotion/core";
-import DotLoader from "react-spinners/DotLoader";
 function App() {
+  AOS.init({ duration: 1000, easing: "ease-in" });
   window.onunload = function () {
     window.scrollTo(0, 0);
   };
@@ -15,6 +18,7 @@ function App() {
     border-color: red;
   `;
   const [isLoading, setIsLoading] = useState(true);
+
   return (
     <Router>
       <LoaderContainer isLoading={isLoading}>
