@@ -6,8 +6,9 @@ import Home from "./pages/index.js";
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { LoaderContainer } from "./AppElement";
+import { MobileIcon } from "./components/Navbar/NavbarElements";
 function App() {
-  window.onbeforeunload = function () {
+  window.onunload = function () {
     window.scrollTo(0, 0);
   };
 
