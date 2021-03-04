@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/cv-portfolio/static/css/main.061e584e.chunk.css",
-    "main.js": "/cv-portfolio/static/js/main.16750969.chunk.js",
-    "main.js.map": "/cv-portfolio/static/js/main.16750969.chunk.js.map",
-    "runtime-main.js": "/cv-portfolio/static/js/runtime-main.695552fb.js",
-    "runtime-main.js.map": "/cv-portfolio/static/js/runtime-main.695552fb.js.map",
-    "static/css/2.b3b20861.chunk.css": "/cv-portfolio/static/css/2.b3b20861.chunk.css",
-    "static/js/2.ffe5a84e.chunk.js": "/cv-portfolio/static/js/2.ffe5a84e.chunk.js",
-    "static/js/2.ffe5a84e.chunk.js.map": "/cv-portfolio/static/js/2.ffe5a84e.chunk.js.map",
-    "static/js/3.d042cafd.chunk.js": "/cv-portfolio/static/js/3.d042cafd.chunk.js",
-    "static/js/3.d042cafd.chunk.js.map": "/cv-portfolio/static/js/3.d042cafd.chunk.js.map",
+    "main.js": "/cv-portfolio/static/js/main.b412ebfd.chunk.js",
+    "main.js.map": "/cv-portfolio/static/js/main.b412ebfd.chunk.js.map",
+    "runtime-main.js": "/cv-portfolio/static/js/runtime-main.d0903f61.js",
+    "runtime-main.js.map": "/cv-portfolio/static/js/runtime-main.d0903f61.js.map",
+    "static/css/2.05eef189.chunk.css": "/cv-portfolio/static/css/2.05eef189.chunk.css",
+    "static/js/2.c1eec4f3.chunk.js": "/cv-portfolio/static/js/2.c1eec4f3.chunk.js",
+    "static/js/2.c1eec4f3.chunk.js.map": "/cv-portfolio/static/js/2.c1eec4f3.chunk.js.map",
+    "static/js/3.adc68b75.chunk.js": "/cv-portfolio/static/js/3.adc68b75.chunk.js",
+    "static/js/3.adc68b75.chunk.js.map": "/cv-portfolio/static/js/3.adc68b75.chunk.js.map",
     "index.html": "/cv-portfolio/index.html",
-    "static/css/2.b3b20861.chunk.css.map": "/cv-portfolio/static/css/2.b3b20861.chunk.css.map",
+    "static/css/2.05eef189.chunk.css.map": "/cv-portfolio/static/css/2.05eef189.chunk.css.map",
     "static/css/main.061e584e.chunk.css.map": "/cv-portfolio/static/css/main.061e584e.chunk.css.map",
-    "static/js/2.ffe5a84e.chunk.js.LICENSE.txt": "/cv-portfolio/static/js/2.ffe5a84e.chunk.js.LICENSE.txt",
+    "static/js/2.c1eec4f3.chunk.js.LICENSE.txt": "/cv-portfolio/static/js/2.c1eec4f3.chunk.js.LICENSE.txt",
     "static/media/admo.26c418d5.png": "/cv-portfolio/static/media/admo.26c418d5.png",
     "static/media/aws-logo.1d12dac5.png": "/cv-portfolio/static/media/aws-logo.1d12dac5.png",
     "static/media/coursera-logo.de808e35.png": "/cv-portfolio/static/media/coursera-logo.de808e35.png",
@@ -42,10 +42,10 @@
     "static/media/video2.b99b6883.mp4": "/cv-portfolio/static/media/video2.b99b6883.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.695552fb.js",
-    "static/css/2.b3b20861.chunk.css",
-    "static/js/2.ffe5a84e.chunk.js",
+    "static/js/runtime-main.d0903f61.js",
+    "static/css/2.05eef189.chunk.css",
+    "static/js/2.c1eec4f3.chunk.js",
     "static/css/main.061e584e.chunk.css",
-    "static/js/main.16750969.chunk.js"
+    "static/js/main.b412ebfd.chunk.js"
   ]
 }

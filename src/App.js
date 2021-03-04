@@ -12,10 +12,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   return (
     <Router>
-      <LoaderContainer isLoading={true}>
-        <RingLoader color="rgb(241, 113, 27)" loading={true} size={100} />
+      <LoaderContainer isLoading={isLoading}>
+        <RingLoader color="rgb(241, 113, 27)" loading={isLoading} size={100} />
       </LoaderContainer>
-      <Home isLoading={true} setIsLoading={setIsLoading} />
+      <Home isLoading={isLoading} setIsLoading={setIsLoading} />
     </Router>
   );
 }
