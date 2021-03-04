@@ -45,7 +45,7 @@ const Experiences = () => {
   return (
     <>
       <ExperienceContainer id="experiences_skills">
-        <ExperienceSection data-aos="flip-left">
+        <ExperienceSection>
           <ExperienceSectionDivWrapper>
             <WorkContainer>
               <WorkTitleH3>Work Experiences</WorkTitleH3>

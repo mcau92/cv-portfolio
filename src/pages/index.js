@@ -12,8 +12,6 @@ import Sidebar from "../components/Sidebar";
 import { HomeContainer } from "./HomeElement";
 
 const Home = ({ isLoading, setIsLoading }) => {
-  AOS.init({ duration: 1000, easing: "ease-in-out" });
-  window.addEventListener("load", AOS.refresh);
   const [isOpen, setIsOpen] = useState(false);
 
   return (
