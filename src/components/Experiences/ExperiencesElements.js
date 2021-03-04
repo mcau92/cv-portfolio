@@ -53,12 +53,11 @@ export const Col1 = styled.div`
   grid-area: col1;
 `;
 export const Image = styled.img`
-  min-height: 55%;
   max-height: 65%;
+
   max-width: 4rem;
   @media screen and (max-width: 520px) {
     max-width: 3rem;
-    max-height: 45%;
   }
 `;
 export const Col2 = styled.div`
