@@ -16,7 +16,7 @@ function App() {
     <Router>
       <LoaderContainer isLoading={isLoading}>
         <Loader
-          type="Puff"
+          type="ThreeDots"
           color="rgb(241, 113, 27)"
           height={100}
           width={100}

@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   background: #181818;
   height: 80px;
   width: 100%;
-
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

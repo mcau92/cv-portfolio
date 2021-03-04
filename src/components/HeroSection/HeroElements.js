@@ -51,16 +51,11 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
+  transform: translateY(-20%) !important;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
-    transform: translateY(0) !important;
-  }
-  @media screen and (max-height: 668px) {
-    transform: translateY(0) !important;
-  }
-  @media screen and (max-height: 520px) {
-    transform: translateY(10%) !important;
+  @media screen and (max-height: 565px) {
+    transform: translateY(-10%) !important;
   }
 `;
 export const HeroImgContainer = styled.div`
