@@ -3,6 +3,7 @@ export const LoaderContainer = styled.div`
   opacity: ${(props) => (props.isLoading ? "1" : "0")};
   position: fixed;
   display: block;
-  top: 45%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `;

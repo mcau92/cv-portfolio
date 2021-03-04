@@ -147,9 +147,7 @@ const Experiences = () => {
                   <Image src={enac} />
                 </Col1>
                 <Col2BorderBottom>
-                  <EducationTitle>
-                    ENAC- Italian Civil Aviation Authority
-                  </EducationTitle>
+                  <EducationTitle>ENAC</EducationTitle>
                   <EducationDescription>
                     APR Pilot Attestation
                   </EducationDescription>
