@@ -18,11 +18,9 @@ const Navbar = ({ isOpen, setIsOpen }) => {
   };
   return (
     <>
-      <Nav id="navbar">
+      <Nav>
         <NavbarContainer>
-          <NavLogo onClick={toogleHome} to="navbar">
-            M.C.
-          </NavLogo>
+          <NavLogo onClick={toogleHome}>M.C.</NavLogo>
           <MobileIcon onClick={() => setIsOpen(!isOpen)}>
             <FaBars />
           </MobileIcon>
