@@ -11,11 +11,15 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   bottom: 0;
   margin: 0;
   z-index: 40;
+
+  @media screen and (max-width: 768px) {
+    position: -webkit-sticky;
+  }
 `;
 
 export const NavbarContainer = styled.div`
@@ -40,8 +44,7 @@ export const NavLogo = styled(LinkR)`
     -1px 1px 0 #000, 1px 1px 0 #000;
   cursor: default;
   &:hover {
-    transform: scale(1.02);
-    transition: all 0.4s ease-in-out;
+    cursor: pointer;
   }
 `;
 

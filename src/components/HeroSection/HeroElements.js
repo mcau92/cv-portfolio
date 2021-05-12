@@ -51,7 +51,6 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
-  transform: translateY(-20%) !important;
   align-items: center;
 
   @media screen and (max-height: 565px) {
