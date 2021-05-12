@@ -16,10 +16,6 @@ export const Nav = styled.nav`
   bottom: 0;
   margin: 0;
   z-index: 40;
-
-  @media screen and (max-width: 768px) {
-    position: -webkit-sticky;
-  }
 `;
 
 export const NavbarContainer = styled.div`
