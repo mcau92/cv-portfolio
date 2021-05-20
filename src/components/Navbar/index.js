@@ -22,9 +22,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
-          <MobileIcon onClick={() => setIsOpen(!isOpen)}>
-            <FaBars />
-          </MobileIcon>
+
           <NavMenu>
             <NavItem>
               <NavLinksAbout
@@ -35,6 +33,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 spy={true}
                 offset={-70}
                 autoCorrect="true"
+                className="active"
               >
                 About
               </NavLinksAbout>
@@ -47,6 +46,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
                 spy={true}
                 exact={"true"}
                 offset={-70}
+                className="active"
               >
                 Experiences and Skills
               </NavLinksExperiece>

@@ -72,10 +72,6 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `;
 
 export const NavItem = styled.li`
@@ -96,9 +92,9 @@ export const NavLinksAbout = styled(LinkS)`
     color: rgb(241, 113, 27);
   }
 
-  /* &.active {
-    color: rgb(241, 113, 27) !important;
-  } */
+  &.active {
+    color: #fff !important;
+  }
 `;
 export const NavLinksExperiece = styled(LinkS)`
   color: #fff;
@@ -114,7 +110,7 @@ export const NavLinksExperiece = styled(LinkS)`
     color: rgb(241, 113, 27);
   }
 
-  /*&.active {
-    color: rgb(241, 113, 27);
-  }*/
+  &.active {
+    color: #fff !important;
+  }
 `;

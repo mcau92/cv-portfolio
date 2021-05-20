@@ -11,10 +11,15 @@ import { HomeContainer } from "./HomeElement";
 
 const Home = ({ isLoading, setIsLoading }) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  var isInstagram = true;
+  if (
+    window.innerHeight === window.screen.height &&
+    navigator.userAgent.match(/instagram/i)
+  ) {
+    isInstagram = true;
+  }
   return (
-    <HomeContainer isLoading={isLoading}>
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
+    <HomeContainer isLoading={isLoading} isInstagram={isInstagram}>
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <HeroSection isLoading={isLoading} setIsLoading={setIsLoading} />
       <InfoSection {...homeObjOne} />
