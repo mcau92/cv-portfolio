@@ -16,17 +16,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink
-            to="about"
-            onClick={() => setIsOpen(!isOpen)}
-            offset={-80}
-          >
+          <SidebarLink to="about" onClick={() => setIsOpen(!isOpen)} offset={0}>
             About
           </SidebarLink>
           <SidebarLink
             to="experiences_skills"
             onClick={() => setIsOpen(!isOpen)}
-            offset={-80}
+            offset={0}
           >
             Experiences
           </SidebarLink>

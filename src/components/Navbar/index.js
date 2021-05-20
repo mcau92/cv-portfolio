@@ -16,6 +16,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
   const toogleHome = () => {
     scroll.scrollToTop();
   };
+
   return (
     <>
       <Nav>
