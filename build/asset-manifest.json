@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv-portfolio/static/css/main.1de17cb6.chunk.css",
+    "main.css": "/cv-portfolio/static/css/main.bb10d39f.chunk.css",
     "main.js": "/cv-portfolio/static/js/main.b2a937d1.chunk.js",
     "main.js.map": "/cv-portfolio/static/js/main.b2a937d1.chunk.js.map",
     "runtime-main.js": "/cv-portfolio/static/js/runtime-main.d0903f61.js",
@@ -12,7 +12,7 @@
     "static/js/3.adc68b75.chunk.js.map": "/cv-portfolio/static/js/3.adc68b75.chunk.js.map",
     "index.html": "/cv-portfolio/index.html",
     "static/css/2.05eef189.chunk.css.map": "/cv-portfolio/static/css/2.05eef189.chunk.css.map",
-    "static/css/main.1de17cb6.chunk.css.map": "/cv-portfolio/static/css/main.1de17cb6.chunk.css.map",
+    "static/css/main.bb10d39f.chunk.css.map": "/cv-portfolio/static/css/main.bb10d39f.chunk.css.map",
     "static/js/2.3f88dbfb.chunk.js.LICENSE.txt": "/cv-portfolio/static/js/2.3f88dbfb.chunk.js.LICENSE.txt",
     "static/media/admo.26c418d5.png": "/cv-portfolio/static/media/admo.26c418d5.png",
     "static/media/aws-logo.1d12dac5.png": "/cv-portfolio/static/media/aws-logo.1d12dac5.png",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.d0903f61.js",
     "static/css/2.05eef189.chunk.css",
     "static/js/2.3f88dbfb.chunk.js",
-    "static/css/main.1de17cb6.chunk.css",
+    "static/css/main.bb10d39f.chunk.css",
     "static/js/main.b2a937d1.chunk.js"
   ]
 }

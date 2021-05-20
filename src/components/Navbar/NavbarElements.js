@@ -11,13 +11,15 @@ export const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: fixed;
   top: 0;
   bottom: 0;
   margin: 0;
   z-index: 40;
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
+  position: fixed;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+  }
 `;
 
 export const NavbarContainer = styled.div`
