@@ -16,6 +16,8 @@ export const Nav = styled.nav`
   bottom: 0;
   margin: 0;
   z-index: 40;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 `;
 
 export const NavbarContainer = styled.div`
