@@ -22,7 +22,9 @@ const Navbar = ({ isOpen, setIsOpen }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo onClick={toogleHome}>M.C.</NavLogo>
-
+          <MobileIcon onClick={() => setIsOpen(!isOpen)}>
+            <FaBars />
+          </MobileIcon>
           <NavMenu>
             <NavItem>
               <NavLinksAbout

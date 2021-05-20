@@ -72,6 +72,10 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const NavItem = styled.li`

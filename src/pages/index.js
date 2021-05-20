@@ -19,7 +19,8 @@ const Home = ({ isLoading, setIsLoading }) => {
     isInstagram = true;
   }
   return (
-    <HomeContainer isLoading={isLoading} isInstagram={isInstagram}>
+    <HomeContainer isLoading={isLoading}>
+      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <HeroSection isLoading={isLoading} setIsLoading={setIsLoading} />
       <InfoSection {...homeObjOne} />
