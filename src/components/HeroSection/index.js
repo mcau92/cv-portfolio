@@ -5,6 +5,7 @@ import { Typewriter } from "react-typewriting-effect";
 import gitLink from "../../images/git-link-logo.png";
 import me from "../../images/myphoto.png";
 import unsplash from "../../images/unsplash-icon.png";
+import ig from "../../images/ig.jpg";
 import Video from "../../videos/video2.mp4";
 import {
   HeroBg,
@@ -64,6 +65,9 @@ const HeroSection = ({ isLoading, setIsLoading }) => {
             </LinksWrapper>
             <LinksWrapper href="https://unsplash.com/@mcau92">
               <LinksIcon src={unsplash} title="Unsplash" />
+            </LinksWrapper>
+            <LinksWrapper href="https://www.instagram.com/mikecode_">
+              <LinksIcon src={ig} title="Instagram" />
             </LinksWrapper>
           </LinksLogoContainer>
         </HeroContent>
