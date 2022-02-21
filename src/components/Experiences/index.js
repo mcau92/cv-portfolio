@@ -71,6 +71,23 @@ const Experiences = () => {
                     • Design and Develop web application using Java and Spring
                     Framework with microservices architecture. <br />• Software
                     test, build and deploy automation using CI and CD practices.
+                    <WorkDescriptionTitle>Java tutor</WorkDescriptionTitle>
+                    <WorkDescriptionDuration>
+                      november 2021-present
+                    </WorkDescriptionDuration>
+                    • Be able to tutor and manage new java junior engineers,
+                    from helping them settle in to teaching them new
+                    technologies, based on the projects requirements that they
+                    are involved.
+                    <WorkDescriptionTitle>
+                      Technical Interviewer
+                    </WorkDescriptionTitle>
+                    <WorkDescriptionDuration>
+                      january 2022-present
+                    </WorkDescriptionDuration>
+                    • Evaluation and management of the entire technical
+                    interview process for the java opened positions, from the
+                    program test correction to the face-to-face tech screening.
                   </WorkDescription>
                 </Col4>
               </WorkWrapper>
