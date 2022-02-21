@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cv-portfolio/static/css/main.bb10d39f.chunk.css",
-    "main.js": "/cv-portfolio/static/js/main.c381ee2c.chunk.js",
-    "main.js.map": "/cv-portfolio/static/js/main.c381ee2c.chunk.js.map",
+    "main.js": "/cv-portfolio/static/js/main.a1643e1b.chunk.js",
+    "main.js.map": "/cv-portfolio/static/js/main.a1643e1b.chunk.js.map",
     "runtime-main.js": "/cv-portfolio/static/js/runtime-main.d0903f61.js",
     "runtime-main.js.map": "/cv-portfolio/static/js/runtime-main.d0903f61.js.map",
     "static/css/2.05eef189.chunk.css": "/cv-portfolio/static/css/2.05eef189.chunk.css",
@@ -36,7 +36,7 @@
     "static/media/postman-logo.73784122.png": "/cv-portfolio/static/media/postman-logo.73784122.png",
     "static/media/python-logo.97a72db0.svg": "/cv-portfolio/static/media/python-logo.97a72db0.svg",
     "static/media/react-logo.73ac128a.png": "/cv-portfolio/static/media/react-logo.73ac128a.png",
-    "static/media/resume.3ff0a3a3.pdf": "/cv-portfolio/static/media/resume.3ff0a3a3.pdf",
+    "static/media/resume.13a00486.pdf": "/cv-portfolio/static/media/resume.13a00486.pdf",
     "static/media/spring-logo.200da33f.png": "/cv-portfolio/static/media/spring-logo.200da33f.png",
     "static/media/uninettuno-logo.67f0bb3f.png": "/cv-portfolio/static/media/uninettuno-logo.67f0bb3f.png",
     "static/media/video2.b99b6883.mp4": "/cv-portfolio/static/media/video2.b99b6883.mp4"
@@ -46,6 +46,6 @@
     "static/css/2.05eef189.chunk.css",
     "static/js/2.3f88dbfb.chunk.js",
     "static/css/main.bb10d39f.chunk.css",
-    "static/js/main.c381ee2c.chunk.js"
+    "static/js/main.a1643e1b.chunk.js"
   ]
 }
