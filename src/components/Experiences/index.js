@@ -63,14 +63,14 @@ const Experiences = () => {
                 <Col4>
                   <WorkDescription>
                     <WorkDescriptionTitle>
-                      Java Software Developer
+                      Team Leader & Software Engineer
                     </WorkDescriptionTitle>
                     <WorkDescriptionDuration>
-                      november 2018-present
+                      november 2022-present
                     </WorkDescriptionDuration>
-                    • Design and Develop web application using Java and Spring
-                    Framework with microservices architecture. <br />• Software
-                    test, build and deploy automation using CI and CD practices.
+                    • I am the Team leader of a small-sized team (1 to 3 members), i usually manage and distribute task inside my team, defining the architecture and the goals of our backend components.
+                      I like reviewing code and reduce software complexity, to achive the best readability and performance of our programs. Test is a must, in this era of continous changes, i think that a good code needs good tests, which help us reduce bugs and speed up their detection.
+                      I also partecipate in helping functional and technical analysis to best achive customer results.
                     <WorkDescriptionTitle>Java tutor</WorkDescriptionTitle>
                     <WorkDescriptionDuration>
                       november 2021-present
@@ -88,6 +88,15 @@ const Experiences = () => {
                     • Evaluation and management of the entire technical
                     interview process for the java opened positions, from the
                     program test correction to the face-to-face tech screening.
+                    <WorkDescriptionTitle>
+                      Java Software Developer
+                    </WorkDescriptionTitle>
+                    <WorkDescriptionDuration>
+                      november 2018-present
+                    </WorkDescriptionDuration>
+                    • Design and Develop web application using Java and Spring
+                    Framework with microservices architecture. <br />• Software
+                    test, build and deploy automation using CI and CD practices.
                   </WorkDescription>
                 </Col4>
               </WorkWrapper>
