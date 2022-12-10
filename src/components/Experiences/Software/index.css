@@ -1,0 +1,29 @@
+.rec-carousel-wrapper {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.rec-slider-container {
+    margin: 0 !important;
+}
+
+.rec.rec-arrow {
+    display: none;
+}
+
+.rec-dot {
+    border-color: black !important ;
+    margin-bottom: 20px !important;
+}
+.rec-dot_active {
+    background-color: black !important;
+    box-shadow: 0 0 1px 2px gray !important;
+}
+.rec-dot:hover {
+    border-color: black !important;
+    box-shadow: 0 0 1px 3px gray !important;
+}
+.rec-dot_active:hover {
+    background-color: black !important;
+    box-shadow: 0 0 1px 2px gray !important;
+}
