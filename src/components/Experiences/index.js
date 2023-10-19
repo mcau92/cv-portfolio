@@ -31,7 +31,7 @@ import {
 import euris from "../../images/euris.png";
 import uninettuno from "../../images/uninettuno-logo.png";
 import hschool from "../../images/hs-logo.png";
-import pdf from "../../resume/resume.pdf";
+import pdf from "../../resume/resume_0823.pdf";
 import google from "../../images/google-logo.png";
 import coursera from "../../images/coursera-logo.png";
 import admo from "../../images/admo.png";
