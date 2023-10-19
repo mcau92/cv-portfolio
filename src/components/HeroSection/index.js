@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Typewriter } from "react-typewriting-effect";
 import gitLink from "../../images/git-link-logo.png";
-import me from "../../images/myphoto.jpg";
+import me from "../../images/myphoto.png";
 import unsplash from "../../images/unsplash-icon.png";
 import ig from "../../images/ig.jpg";
 import Video from "../../videos/video2.mp4";

@@ -14,7 +14,7 @@ const LinksAndContacts = () => {
           Copyright © {new Date().getFullYear()} All rights reserved | Michael
           Cauduro
         </LinksCopyrigth>
-        <LinksUpdateInfo>Last site update: 10/2023 </LinksUpdateInfo>
+        <LinksUpdateInfo>Last site update: 12/2022 </LinksUpdateInfo>
       </LinksAndContactsContainer>
     </>
   );
