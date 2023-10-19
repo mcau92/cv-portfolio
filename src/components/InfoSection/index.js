@@ -36,7 +36,7 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Subtitle darkText={darkText}>
-                  I’m a 29 years old Java Software Engineer from Italy (TV).
+                  I’m a 31 years old Java Software Engineer from Italy (TV).
                   <br />
                   Being a <Higlighted>determined professional</Higlighted>, I
                   try everyday to develop new skills and enhance my current
